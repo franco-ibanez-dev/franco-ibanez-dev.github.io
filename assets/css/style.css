@@ -8,6 +8,7 @@
     --color-brand: #EDE599;
     --color-brand2: #C7A003;
     --color-text1: #f9eec0;
+    --color-text2: white;
     --sidbar-width: 240px;
     --font-base: "Bai Jamjuree"
 }
@@ -29,12 +30,16 @@ h2,
 h3,
 h4,
 h5,
-h6,
-p {
-    color: var(--color-text1);
-    font-weight: 700;
+h6
+{
+color: var(--color-text1);
+font-weight: 700;
 }
 
+p {
+    color: var(--color-text2);
+    font-weight: 500;
+}
 
 a {
     text-decoration: none;
