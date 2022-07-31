@@ -7,7 +7,7 @@
     --color-base2: #3D4E17;
     --color-brand: #EDE599;
     --color-brand2: #C7A003;
-    --color-text1: #f4eed5;
+    --color-text1: #f9eec0;
     --sidbar-width: 240px;
     --font-base: "Bai Jamjuree"
 }
@@ -91,6 +91,10 @@ a:hover {
     color: var(--color-brand2);
 }
 
+.navbar .nav-link.active{
+    color:var(--color-brand2);
+}
+
 .full-height {
     min-height: 100vh;
     height: 100%;
@@ -168,4 +172,18 @@ a:hover {
 
 .custom-link:hover:after {
     width: 100%;
+}
+
+.service {
+    border-radius: 12px;
+}
+
+.iconbox {
+    width: 60px;    
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+    background-color: var(--color-brand2);
 }
