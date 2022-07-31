@@ -30,10 +30,9 @@ h2,
 h3,
 h4,
 h5,
-h6
-{
-color: var(--color-text1);
-font-weight: 700;
+h6 {
+    color: var(--color-text1);
+    font-weight: 700;
 }
 
 p {
@@ -43,7 +42,7 @@ p {
 
 a {
     text-decoration: none;
-    color: var(--color-body);
+    color: var(--color-brand);
     transition: all 0.4s ease;
 }
 
@@ -156,10 +155,6 @@ a:hover {
     border-color: var(--color-brand);
 }
 
-#call-btn {
-    color: var(--color-brand);
-}
-
 .custom-link {
     font-weight: 700;
     position: relative;
@@ -192,4 +187,20 @@ a:hover {
     justify-content: center;
     font-size: 32px;
     background-color: var(--color-brand2);
+}
+
+
+/* Card */
+.custom-card .custom-card-image {
+    overflow: hidden;
+}
+
+.custom-card .custom-card-image img {
+    height: auto;
+    width: 100%;
+    transition: all 0.4s ease;
+}
+
+.custom-card:hover .custom-card-image img {
+    transform: scale(1.1);
 }
