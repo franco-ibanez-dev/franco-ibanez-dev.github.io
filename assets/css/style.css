@@ -40,3 +40,15 @@ a:hover {
 img {
     width: 100%;
 }
+
+
+/* NAVBAR */
+@media(min-width: 992px) {
+    .navbar {
+        min-height: 10vh;
+        width: var(--sidbar-width);
+        background: linear-gradient(rgba(255, 251, 204, 0.1), rgba(255, 251, 203, 0.1)), url('../images/sidebarimage.jpg');
+        background-size: cover;
+        background-position: center;
+    }
+}
