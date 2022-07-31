@@ -11,6 +11,12 @@
     --font-base: "Bai Jamjuree"
 }
 
+html,
+body {
+    margin: 0px;
+    height: 100%;
+}
+
 body {
     background-color: var(--color-base2);
     color: var(--color-body);
@@ -41,6 +47,9 @@ img {
     width: 100%;
 }
 
+.navbar {
+    /* height: 100%; */
+}
 
 /* NAVBAR */
 @media(min-width: 992px) {
