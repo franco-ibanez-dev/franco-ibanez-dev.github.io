@@ -7,6 +7,7 @@
     --color-base2: #3D4E17;
     --color-brand: #EDE599;
     --color-brand2: #C7A003;
+    --color-text1: #f4eed5;
     --sidbar-width: 240px;
     --font-base: "Bai Jamjuree"
 }
@@ -30,7 +31,7 @@ h4,
 h5,
 h6,
 p {
-    color: var(--color-brand);
+    color: var(--color-text1);
     font-weight: 700;
 }
 
@@ -58,15 +59,15 @@ a:hover {
 
 .shadow-effect:hover {
 
-    box-shadow: 0 0 0 8px var(--color-brand);
+    box-shadow: -6px 6px 0 0 var(--color-brand);
 }
 
 #persona1 {
     width: auto;
     height: 330px;
-    filter:sepia(2%);
-    filter:brightness(95%);
-    filter:saturate(90%);
+    filter: sepia(2%);
+    filter: brightness(95%);
+    filter: saturate(90%);
 }
 
 #description {
