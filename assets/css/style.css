@@ -2,11 +2,11 @@
 
 :root {
     --color-body: #0F0509;
-    --color-heading: #6B4981;
-    --color-base: #692111;
-    --color-base2: #762F1D;
-    --color-brand: #FFFBCB;
-    --color-brand2: #F4C974;
+    --color-heading: #C7A003;
+    --color-base: #151F1E;
+    --color-base2: #3D4E17;
+    --color-brand: #EDE599;
+    --color-brand2: #C7A003;
     --sidbar-width: 240px;
     --font-base: "Bai Jamjuree"
 }
@@ -18,7 +18,7 @@ body {
 }
 
 body {
-    background-color: var(--color-base2);
+    background-color: var(--color-base);
     color: var(--color-body);
     font: var(--font-base), sans-serif;
 }
@@ -28,7 +28,8 @@ h2,
 h3,
 h4,
 h5,
-h6 {
+h6,
+p {
     color: var(--color-brand);
     font-weight: 700;
 }
@@ -47,10 +48,25 @@ a:hover {
     color: var(--color-brand2);
 }
 
+.bg-base {
+    background-color: var(--color-base2);
+}
+
+.shadow-effect {
+    transition: all 0.5s;
+}
+
+.shadow-effect:hover {
+
+    box-shadow: 0 0 0 8px var(--color-brand);
+}
+
 #persona1 {
     width: auto;
     height: 330px;
-    filter: grayscale(10%);
+    filter:sepia(2%);
+    filter:brightness(95%);
+    filter:saturate(90%);
 }
 
 #description {
@@ -60,7 +76,7 @@ a:hover {
 /* NAVBAR */
 
 .navbar {
-    background-color: #6B4981;
+    background-color: var(--color-base2);
     /* height: 100%; */
 }
 
@@ -85,12 +101,16 @@ a:hover {
     border-bottom: 2px solid rgba(255, 255, 255, 0.1);
 }
 
+.navbar .nab-link .active {
+    color: var(--color-brand)
+}
+
 @media(min-width: 992px) {
     .navbar {
         height: 100%;
         min-height: 10vh;
         width: var(--sidbar-width);
-        background: linear-gradient(rgba(255, 251, 204, 0.05), rgba(255, 251, 203, 0.05)), url('../images/sidebarimage.jpg');
+        background: linear-gradient(rgba(255, 251, 204, 0.05), rgba(255, 251, 203, 0.05)), url('../images/sidebarimage2.png');
         background-size: cover;
         background-position: center;
     }

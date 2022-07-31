@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
-<body>
+<body data-bs-spy="scroll" data-bs-target=".navbar">
     <!-- NavBar -->
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
         <div class="container flex-lg-column ">
@@ -47,10 +47,11 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-8">
-                        <h1 class="display-4 fw-bold mt-2 mb-4">I'm a <span class="text-brand">Full Stack Developer</span> from
+                        <h1 class="display-4 fw-bold mt-2 mb-4">I'm a <span class="text-brand">Full Stack
+                                Developer</span> from
                             Buenos Aires, AR.</h1>
                         <p class="lead" id="description">An awesome description</p>
-                        <a href="#work" class="btn btn-brand me-3" >Explore My Work</a>
+                        <a href="#work" class="btn btn-brand me-3">Explore My Work</a>
                         <a href="#" class="custom-link" id="call-btn">Call: (123) 123-4567</a>
                     </div>
                 </div>
@@ -58,6 +59,34 @@
 
         </section>
         <!-- //Home -->
+        <!-- Services -->
+        <div id="services" class="full-height px-lg-5">
+            <div class="container">
+                <div class="row pb-4">
+                    <div class="col-lg-8">
+                        <div class="text-brand">SERVICES</div>
+                        <h1>Services That I Provide</h1>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="service p-4 bg-base shadow-effect">
+                            <div class="iconbox">
+                                <i class="las la-feather-alt"></i>
+                                <h4>Branding</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                                    irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                                    pariatur. </p>
+                                <a href="#" class="custom-link">Read more</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- //Services -->
     </div>
     <!-- //Content Wrapper -->
 
