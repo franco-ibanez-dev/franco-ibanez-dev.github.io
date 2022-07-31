@@ -40,18 +40,32 @@ a {
 }
 
 a:hover {
-    color: var(--color-brand);
+    color: var(--color-brand2);
 }
 
 img {
     width: 100%;
 }
 
-.navbar {
-    /* height: 100%; */
+#persona1 {
+    width: auto;
+    height: 330px;
+    margin-left: 10px;
+    filter: grayscale(10%);
 }
 
 /* NAVBAR */
+
+.navbar .nav-link {
+    font-weight: 700;
+    text-transform: uppercase;
+    color: white;
+}
+
+.navbar .nav-link:hover {
+    color: var(--color-brand);
+}
+
 @media(min-width: 992px) {
     .navbar {
         min-height: 10vh;
@@ -60,4 +74,8 @@ img {
         background-size: cover;
         background-position: center;
     }
+
+    .navbar-brand img{
+        border: 8px solid var(--color-brand2);
+}
 }
