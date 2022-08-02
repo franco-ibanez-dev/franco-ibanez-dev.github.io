@@ -227,6 +227,18 @@ a:hover {
 
 /* Social Icons */
 
+.social-icons1 a {
+    margin-top: 100px;
+    width: 60px;
+    height: 60px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--color-base2);
+    border-radius: 100px;
+    font-size: 40px;
+}
+
 .social-icons a {
     width: 40px;
     height: 40px;
