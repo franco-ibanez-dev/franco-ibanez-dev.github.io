@@ -127,6 +127,11 @@ a:hover {
     color: var(--color-brand)
 }
 
+#henryCert:hover {
+    text-shadow: 5px 5px 6px var(--color-base);
+    color: var(--color-heading);
+}
+
 @media(min-width: 992px) {
     .navbar {
         height: 100%;
